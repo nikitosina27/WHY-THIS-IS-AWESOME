@@ -1,6 +1,6 @@
 body{
    font-family: 'Raleway', 'Open Sans';
-  
+   
 }
 section{
 padding: 0px 171px 0px 169px;
@@ -55,3 +55,54 @@ h4{
    text-align: center;
    font-size: 18px;
 }
+/*стили для статуи свободы*/
+.tabs-section{
+   padding: 0px 170px 0px 170px;
+}
+.tabs .Tab{
+  display: inline-flex;
+  padding: 10px;
+  font-family: 'Open Sans';
+  border-radius: 5px 5px 0px 0px;
+}
+
+.tabs .Tab:nth-child(1){
+   border: 1px solid #C6CBCD;
+   border-radius: 5%;
+   padding: 10px 82px;
+   border-bottom: 0px;
+   border-radius: 5px 5px 0px 0px;
+   box-sizing: content-box;
+}
+.H3{
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 41px;
+   display: flex;
+   align-items: center;
+}
+.H5{
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   display: flex;
+   align-items: center;
+}
+button{
+   background: #EC7979;
+   width: 270px;
+   height: 58px;
+   left: 270px;
+   top: 1691px;
+   color: white;
+   border: none;
+}
+.tabs-box{
+   border: 1px solid #C6CBCD;
+   padding: 30px 30px 30px 80px;
+}
+
