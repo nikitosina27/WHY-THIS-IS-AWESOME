@@ -13,7 +13,10 @@ section{
    display: flex;
    justify-content: center;
 }
-
+.tabs_container{
+   display: flex;
+   flex-direction: column;
+}
 .line{
    width: 170px;
    height: 1px;
@@ -59,6 +62,7 @@ h4{
 /*стили для статуи свободы*/
 .tabs-section{
    padding: 0px 170px 0px 170px;
+   display: flex;
 }
 .tabs .Tab{
    display: inline-flex;
@@ -67,7 +71,7 @@ h4{
   border-radius: 5px 5px 0px 0px;
 }
 
-.tabs .Tab:nth-child(1){
+.tabs:nth-child(1){
    border: 1px solid #C6CBCD;
    border-radius: 5%;
    padding: 10px 82px;
@@ -105,7 +109,7 @@ button{
 }
 .tabs-box{
    border: 1px solid #C6CBCD;
-   
+   display: inline-flex;
 }
 
 .rectangle img{
