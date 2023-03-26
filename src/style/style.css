@@ -3,7 +3,8 @@ body{
    
 }
 section{
-padding: 0px 171px 0px 169px;
+  
+   padding: 0px 171px 0px 169px;
 }
 .title{
    font-style: normal;
@@ -60,8 +61,8 @@ h4{
    padding: 0px 170px 0px 170px;
 }
 .tabs .Tab{
-  display: inline-flex;
-  padding: 10px;
+   display: inline-flex;
+   padding: 10px 90px;
   font-family: 'Open Sans';
   border-radius: 5px 5px 0px 0px;
 }
@@ -81,7 +82,7 @@ h4{
    font-size: 30px;
    line-height: 41px;
    display: flex;
-   align-items: center;
+   align-items: flex-start;
 }
 .H5{
    font-family: 'Raleway';
@@ -91,6 +92,7 @@ h4{
    line-height: 21px;
    display: flex;
    align-items: center;
+   padding: 30px 30px 30px 80px;
 }
 button{
    background: #EC7979;
@@ -103,6 +105,12 @@ button{
 }
 .tabs-box{
    border: 1px solid #C6CBCD;
-   padding: 30px 30px 30px 80px;
+   
 }
 
+.rectangle img{
+   
+   justify-content: flex-end;
+   align-items: flex-end;
+   background-position: 10% center;
+}
