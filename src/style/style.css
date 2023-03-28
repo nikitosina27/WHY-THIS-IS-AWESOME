@@ -16,6 +16,7 @@ section{
 .tabs_container{
    display: flex;
    flex-direction: column;
+   padding-left: 50px;
 }
 .line{
    width: 170px;
@@ -38,13 +39,14 @@ section{
    align-items: center;
    flex-wrap: wrap;    
 }
-img {
-   display:block;
-   margin: 0 auto;
+.icon{
+position: relative;
+top: 0px;
+left: 95px;
 }
-
 .box{
    max-width: 370px;
+   display: block;
 }
 h4{
    font-family:  'Open Sans';
@@ -63,6 +65,7 @@ h4{
 .tabs-section{
    padding: 0px 170px 0px 170px;
    display: flex;
+  
 }
 .tabs .Tab{
    display: inline-flex;
@@ -70,8 +73,18 @@ h4{
   font-family: 'Open Sans';
   border-radius: 5px 5px 0px 0px;
 }
-
-.tabs:nth-child(1){
+/*сделать лайн прозрачным*/
+.line_2{
+   width: 206px;
+   height: 1px;
+   background: #ffffff;
+   flex: none;
+   position: relative;
+   top: 1px;
+   left: 2px;
+   
+}
+.tabs :nth-child(1){
    border: 1px solid #C6CBCD;
    border-radius: 5%;
    padding: 10px 82px;
@@ -79,7 +92,7 @@ h4{
    border-radius: 5px 5px 0px 0px;
    box-sizing: content-box;
 }
-.H3{
+.title_1{
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 700;
@@ -88,7 +101,7 @@ h4{
    display: flex;
    align-items: flex-start;
 }
-.H5{
+.title_2{
    font-family: 'Raleway';
    font-style: normal;
    font-weight: 400;
@@ -116,5 +129,5 @@ button{
    
    justify-content: flex-end;
    align-items: flex-end;
-   background-position: 10% center;
+   display: block;
 }
